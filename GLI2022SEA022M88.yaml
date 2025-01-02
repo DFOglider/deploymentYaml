@@ -82,15 +82,16 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2022_SEA022_88
-  keywords: Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
-    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity,
+  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
+    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
+    > Conductivity, Earth Science > Oceans > Ocean Temperature > Water Temperature,
     AUVS > Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
   naming_authority: ''
-  network: null
+  network: OceanGliders > BOON > Northwest Atlantic Ocean > Atlantic Zone Monitoring
+    Program
   platform: sub-surface gliders
   platform_model: SeaExplorer
   platform_name: Mersey
@@ -107,7 +108,18 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: null
+  summary: The Atlantic Zone Monitoring Program (AZMP) was implemented in year 1998
+    by the four Atlantic regions of Fisheries and Oceans Canada to collect and analyze
+    the biological, chemical, and physical oceanographic field data to characterize
+    and understand the causes of oceanic variability at various time scales, provide
+    multidisciplinary datasets to establish relationships among variables, and provide
+    adequate data to support the development of ocean activities. Ocean gliders were
+    acquired by Fisheries and Oceans Canada in year 2017 and 2018 for both the West
+    and East coast. On the East coast, they have been used to monitor hydrographic
+    sections associated with the AZMP. Here, the AZMP Halifax line is occupied from
+    outside the mouth of Halifax harbor, Nova Scotia Canada at (44.267N, 63.317W)
+    in the off-shelf direction approximately 135 nautical miles to deep waters off
+    the continental slope at (42.475N, 61.433W).
   transmission_system: ''
   wmo_id: 4800993
   wmo_identifier: 4800993
