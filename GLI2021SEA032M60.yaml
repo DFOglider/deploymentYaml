@@ -57,9 +57,9 @@ metadata:
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2021_SEA032_60
   keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
-    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Salinity/Density
-    > Salinity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
-    > Oceans > Ocean Temperature > Water Temperature, AUVS > Autonomous Underwater
+    > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Ocean Temperature
+    > Water Temperature, Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth
+    Science > Oceans > Ocean Pressure > Water Pressure, AUVS > Autonomous Underwater
     Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -82,7 +82,7 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: null
+  summary: Cetacean Passive Acoustic Monitoring Glider Project
   transmission_system: ''
   wmo_id: 4800937
   wmo_identifier: 4800937

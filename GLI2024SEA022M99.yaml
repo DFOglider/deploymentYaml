@@ -93,10 +93,10 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2024_SEA022_99
-  keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
-    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Ocean Pressure > Water Pressure,
-    AUVS > Autonomous Underwater Vehicles
+  keywords: Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
+    > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density
+    > Conductivity, Earth Science > Oceans > Ocean Chemistry > Chlorophyll, AUVS >
+    Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
@@ -119,7 +119,7 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: null
+  summary: Bonavista line.
   transmission_system: ''
   wmo_id: 4800993
   wmo_identifier: 4800993
