@@ -80,9 +80,9 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2019_SEA021_49
-  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
-    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
-    > Conductivity, Earth Science > Oceans > Ocean Temperature > Water Temperature,
+  keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
+    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
+    > Water Temperature, Earth Science > Oceans > Ocean Pressure > Water Pressure,
     AUVS > Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -354,3 +354,93 @@ profile_variables:
     platform: platform
     serial_number: '"43-3336"'
     type: platform
+  lat_uv:
+    comment: ' '
+    long_name: Depth-Averaged Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  lon_uv:
+    comment: ' '
+    long_name: Depth-Averaged Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_id:
+    comment: ' '
+    long_name: Profile ID
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+    valid_max: 2147483647
+    valid_min: 1
+  profile_lat:
+    comment: ' '
+    long_name: Profile Center Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  profile_lon:
+    comment: ' '
+    long_name: Profile Center Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_time:
+    comment: ' '
+    long_name: Profile Center Time
+    observation_type: calculated
+    platform: platform
+    standard_name: time
+  profile_time_end:
+    comment: ' '
+    long_name: Profile End Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  profile_time_start:
+    comment: ' '
+    long_name: Profile Start Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  time_uv:
+    comment: ' '
+    long_name: Depth-Averaged Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  u:
+    comment: ' '
+    long_name: Depth-Averaged Eastward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: eastward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
+  v:
+    comment: ' '
+    long_name: Depth-Averaged Northward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: northward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
