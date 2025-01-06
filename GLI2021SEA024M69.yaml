@@ -105,10 +105,10 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2021_SEA024_69
-  keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
-    > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Ocean
-    Chemistry > Dissolved Gases, Earth Science > Oceans > Ocean Chemistry > Chlorophyll,
-    Earth Science > Oceans > Ocean Pressure > Water Pressure, AUVS > Autonomous Underwater
+  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
+    > Oceans > Ocean Chemistry > Dissolved Gases, Earth Science > Oceans > Ocean Pressure
+    > Water Pressure, Earth Science > Oceans > Salinity/Density > Conductivity, Earth
+    Science > Oceans > Ocean Temperature > Water Temperature, AUVS > Autonomous Underwater
     Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -167,7 +167,7 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/
-  DOXY:
+  DOXY2:
     accuracy: 2.0
     coordinates: time depth latitude longitude
     instrument: instrument_oxygen2
@@ -301,7 +301,7 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: ''
-  TEMP_DOXY:
+  TEMP_DOXY2:
     accuracy: 0.01
     coordinates: time depth latitude longitude
     instrument: instrument_oxygen2
@@ -337,7 +337,7 @@ netcdf_variables:
   - GLIDER_PITCH
   - conductivity
   - FREQUENCY_DOXY
-  - TEMP_DOXY
+  - TEMP_DOXY2
   latitude:
     axis: Y
     conversion: nmea2deg

@@ -92,10 +92,10 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2024_SEA021_077
-  keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
-    > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth
-    Science > Oceans > Ocean Pressure > Water Pressure, AUVS > Autonomous Underwater
+  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
+    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
+    > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science
+    > Oceans > Ocean Temperature > Water Temperature, AUVS > Autonomous Underwater
     Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -224,7 +224,7 @@ netcdf_variables:
     units: deg
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
-  PSAL:
+  PSAL2:
     accuracy: ''
     coordinates: time depth latitude longitude
     instrument: instrument_ctd2
@@ -262,7 +262,7 @@ netcdf_variables:
     long_name: Electrical conductivity
     observation_type: measured
     precision: ''
-    replaceName: CNDC
+    replaceName: CNDC2
     resolution: 1.0e-05
     source: LEGATO_CONDUCTIVITY
     standard_name: sea_water_electrical_conductivity
@@ -332,7 +332,7 @@ netcdf_variables:
     positive: down
     precision: ''
     reference_datum: sea-surface
-    replaceName: PRES
+    replaceName: PRES2
     resolution: 0.001
     source: LEGATO_PRESSURE
     standard_name: sea_water_pressure
@@ -364,7 +364,7 @@ netcdf_variables:
     long_name: Sea temperature in-situ ITS-90 scale
     observation_type: measured
     precision: ''
-    replaceName: TEMP
+    replaceName: TEMP2
     resolution: 5.0e-05
     source: LEGATO_TEMPERATURE
     standard_name: sea_water_temperature
