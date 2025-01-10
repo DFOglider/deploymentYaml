@@ -80,9 +80,9 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2019_SEA022_46
-  keywords: Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science
-    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Ocean Pressure > Water Pressure,
+  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
+    Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Ocean
+    Pressure > Water Pressure, Earth Science > Oceans > Ocean Chemistry > Chlorophyll,
     AUVS > Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
