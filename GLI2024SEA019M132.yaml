@@ -1,0 +1,453 @@
+glider_devices:
+  ctd:
+    calibration_date: '2024-04-28'
+    calibration_report: '"GPCTD_0186_20231129_P_Post Cruise.pdf, GPCTD_0186_20231201_C_Post
+      Cruise.pdf, GPCTD_0186_20231201_T_Post Cruise.pdf, GPCTD_0186_20240428_C.pdf,
+      GPCTD_0186_20240428_T.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Glider Payload CTD
+    make: Sea-Bird
+    make_model: Sea-Bird GPCTD
+    model: GPCTD
+    platform: platform
+    serial_number: '"0186"'
+    type: platform
+  fluorometer:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: Wetlabs
+    make_model: Wetlabs FLBBCDEXP
+    model: FLBBCDEXP
+    platform: platform
+    serial_number: '"4551"'
+    type: platform
+  oxygen:
+    calibration_coefficients:
+      A: -0.00316
+      B: 0.000161
+      C: -2.2348e-06
+      Enom: 0.036
+      Foffset: -838.73
+      Soc: 0.00030191
+      Tau20: 1.16
+    calibration_date: '2024-04-24'
+    calibration_report: '"43F_3338_20231010_postCruise.pdf, 43F_3338_20240127.pdf,
+      43F_3338_20240424.pdf, 43F_3338_20240424_SOCAdjusted.pdf"'
+    calibration_sourceVars:
+      conductivity: GPCTD_CONDUCTIVITY
+      pressure: GPCTD_PRESSURE
+      temperature: GPCTD_TEMP
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: 43 Dissolved Oxygen
+    make: Sea-Bird
+    make_model: Sea-Bird 43F
+    model: 43F
+    platform: platform
+    serial_number: '"43-3338"'
+    type: platform
+metadata:
+  Conventions: CF-1.6
+  Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
+  acknowledgement: Funding from Fisheries and Oceans Canada.
+  comment: ' '
+  contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
+    of Oceanography
+  contributing_institutions_role: Operator, PI
+  contributing_institutions_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/,
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/
+  contributing_institutions_vocabulary: https://edmo.seadatanet.org/report/1811, https://edmo.seadatanet.org/report/1811
+  contributor_name: Clark Richards, Melany Belzile
+  contributor_role: PI, Operator
+  contributor_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/,
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/
+  creator_email: BIO.Datashop@dfo-mpo.gc.ca
+  creator_name: Bedford Institute of Oceanography
+  creator_url: https://www.bio.gc.ca/index-en.php
+  data_mode: P
+  deployment_end: 2024-11-19
+  deployment_id: 132
+  deployment_name: dfo-Mira019-20241024
+  deployment_start: 2024-10-24
+  deployment_vessel: CCGS Sigma T
+  featureType: trajectory
+  format_version: IOOS_Glider_NetCDF_v2.0.nc
+  glider_instrument_name: SeaExplorer
+  glider_model: SeaExplorer
+  glider_name: Mira
+  glider_serial: 019
+  glider_wmo: 4800925
+  institution: Bedford Institute of Oceanography
+  institution_vocabulary: https://edmo.seadatanet.org/report/1811
+  internal_mission_identifier: GLI2024_SEA019_132
+  keywords: Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
+    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
+    > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity,
+    AUVS > Autonomous Underwater Vehicles
+  keywords_vocabulary: GCMD Science Keywords
+  license: Open Government Licence - Canada
+  metadata_link: ''
+  naming_authority: ''
+  network: null
+  platform: sub-surface gliders
+  platform_model: SeaExplorer
+  platform_name: Mira
+  platform_serial_number: 019
+  platform_type: SeaExplorer Glider
+  platform_vocabulary: https://vocab.nerc.ac.uk/collection/L06/current/27/
+  processing_level: ''
+  project: Atlantic Zone Monitoring Program
+  project_url: ''
+  publisher_email: BIO.Datashop@dfo-mpo.gc.ca
+  publisher_name: Bedford Institute of Oceanography
+  publisher_url: https://www.bio.gc.ca/index-en.php
+  recovery_vessel: CCGS Sigma T
+  references: ''
+  sea_name: Northwest Atlantic Ocean (limit-40 W)
+  source: Observational data from a profiling glider.
+  standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
+  summary: The Atlantic Zone Monitoring Program (AZMP) was implemented in year 1998
+    by the four Atlantic regions of Fisheries and Oceans Canada to collect and analyze
+    the biological, chemical, and physical oceanographic field data to characterize
+    and understand the causes of oceanic variability at various time scales, provide
+    multidisciplinary datasets to establish relationships among variables, and provide
+    adequate data to support the development of ocean activities. Ocean gliders were
+    acquired by Fisheries and Oceans Canada in year 2017 and 2018 for both the West
+    and East coast. On the East coast, they have been used to monitor hydrographic
+    sections associated with the AZMP. Here, the AZMP Halifax line is occupied from
+    outside the mouth of Halifax harbor, Nova Scotia Canada at (44.267N, 63.317W)
+    in the off-shelf direction approximately 135 nautical miles to deep waters off
+    the continental slope at (42.475N, 61.433W).
+  transmission_system: ''
+  wmo_id: 4800925
+  wmo_identifier: 4800925
+netcdf_variables:
+  BBP700:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometer
+    long_name: Particle backscattering at 700 nanometers
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_BB_700_SCALED
+    standard_name: ''
+    units: /m/sr
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/PMSR/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/
+  CDOM:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometer
+    long_name: Concentration of coloured dissolved organic matter in sea water
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_CDOM_SCALED
+    standard_name: ''
+    units: ppb
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPPB/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/
+  FLUORESCENCE_CHLA:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometer
+    long_name: Chlorophyll-A signal from fluorescence sensor
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_CHL_SCALED
+    standard_name: concentration_of_chlorophyll_in_sea_water
+    units: Dmnless
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/
+  FREQUENCY_DOXY:
+    accuracy: ''
+    calculate_oxygenConcentration: sbe43Fhz2conc
+    coordinates: time depth latitude longitude
+    instrument: instrument_oxygen
+    long_name: Frequency reported by oxygen sensor
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: GPCTD_DOF
+    standard_name: ''
+    units: Hz
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UTHZ/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/FREQDOXY/
+  GLIDER_HEADING:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (horizontal relative to magnetic north) of measurement
+      platform {heading} by compass
+    observation_type: measured
+    source: Heading
+    standard_name: ''
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/
+  GLIDER_PITCH:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (pitch) of measurement platform by inclinometer
+    observation_type: measured
+    source: Pitch
+    standard_name: platform_pitch
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/
+  GLIDER_ROLL:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (roll angle) of measurement platform by inclinometer
+    observation_type: measured
+    source: Roll
+    standard_name: platform_roll
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
+  conductivity:
+    accuracy: 0.0003
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd
+    long_name: Electrical conductivity
+    observation_type: measured
+    precision: ''
+    replaceName: CNDC
+    resolution: 1.0e-05
+    source: GPCTD_CONDUCTIVITY
+    standard_name: sea_water_electrical_conductivity
+    units: S m-1
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UECA/
+    valid_max: 9.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
+  interpolate: false
+  keep_variables:
+  - GLIDER_PITCH
+  - conductivity
+  - FREQUENCY_DOXY
+  latitude:
+    axis: Y
+    conversion: nmea2deg
+    coordinate_reference_frame: 'urn: ogc:crs: EPSG::4326'
+    long_name: Latitude north
+    observation_type: measured
+    reference: WGS84
+    source: NAV_LATITUDE
+    standard_name: latitude
+    units: degree_north
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGN/
+    valid_max: '90.00'
+    valid_min: '-90.00'
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LAT/
+  longitude:
+    axis: X
+    conversion: nmea2deg
+    coordinate_reference_frame: 'urn: ogc:crs: EPSG::4326'
+    long_name: Longitude east
+    observation_type: measured
+    reference: WGS84
+    source: NAV_LONGITUDE
+    standard_name: longitude
+    units: degree_east
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGE/
+    valid_max: '180.00'
+    valid_min: '-180.00'
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LON/
+  pressure:
+    accuracy: 0.1
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd
+    long_name: Sea water pressure, equals 0 at sea-level
+    observation_type: measured
+    positive: down
+    precision: ''
+    reference_datum: sea-surface
+    replaceName: PRES
+    resolution: 0.002
+    source: GPCTD_PRESSURE
+    standard_name: sea_water_pressure
+    units: dbar
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPDB/
+    valid_max: 1000.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
+  temperature:
+    accuracy: 0.002
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd
+    long_name: Sea temperature in-situ ITS-90 scale
+    observation_type: measured
+    precision: ''
+    replaceName: TEMP
+    resolution: 0.001
+    source: GPCTD_TEMPERATURE
+    standard_name: sea_water_temperature
+    units: degC
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
+    valid_max: 42.0
+    valid_min: -5.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
+  time:
+    axis: T
+    long_name: Time
+    observation_type: measured
+    source: Timestamp
+    standard_name: time
+    units: seconds since 1970-01-01T00:00:00Z
+    unitsVocabulary: ''
+    vocabulary: ''
+  timebase:
+    source: NAV_LATITUDE
+profile_variables:
+  instrument_ctd:
+    calibration_date: '2024-04-28'
+    calibration_report: '"GPCTD_0186_20231129_P_Post Cruise.pdf, GPCTD_0186_20231201_C_Post
+      Cruise.pdf, GPCTD_0186_20231201_T_Post Cruise.pdf, GPCTD_0186_20240428_C.pdf,
+      GPCTD_0186_20240428_T.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Glider Payload CTD
+    make: Sea-Bird
+    make_model: Sea-Bird GPCTD
+    model: GPCTD
+    platform: platform
+    serial_number: '"0186"'
+    type: platform
+  instrument_fluorometer:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: Wetlabs
+    make_model: Wetlabs FLBBCDEXP
+    model: FLBBCDEXP
+    platform: platform
+    serial_number: '"4551"'
+    type: platform
+  instrument_oxygen:
+    calibration_coefficients:
+      A: -0.00316
+      B: 0.000161
+      C: -2.2348e-06
+      Enom: 0.036
+      Foffset: -838.73
+      Soc: 0.00030191
+      Tau20: 1.16
+    calibration_date: '2024-04-24'
+    calibration_report: '"43F_3338_20231010_postCruise.pdf, 43F_3338_20240127.pdf,
+      43F_3338_20240424.pdf, 43F_3338_20240424_SOCAdjusted.pdf"'
+    calibration_sourceVars:
+      conductivity: GPCTD_CONDUCTIVITY
+      pressure: GPCTD_PRESSURE
+      temperature: GPCTD_TEMP
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: 43 Dissolved Oxygen
+    make: Sea-Bird
+    make_model: Sea-Bird 43F
+    model: 43F
+    platform: platform
+    serial_number: '"43-3338"'
+    type: platform
+  lat_uv:
+    comment: ' '
+    long_name: Depth-Averaged Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  lon_uv:
+    comment: ' '
+    long_name: Depth-Averaged Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_id:
+    comment: ' '
+    long_name: Profile ID
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+    valid_max: 2147483647
+    valid_min: 1
+  profile_lat:
+    comment: ' '
+    long_name: Profile Center Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  profile_lon:
+    comment: ' '
+    long_name: Profile Center Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_time:
+    comment: ' '
+    long_name: Profile Center Time
+    observation_type: calculated
+    platform: platform
+    standard_name: time
+  profile_time_end:
+    comment: ' '
+    long_name: Profile End Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  profile_time_start:
+    comment: ' '
+    long_name: Profile Start Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  time_uv:
+    comment: ' '
+    long_name: Depth-Averaged Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  u:
+    comment: ' '
+    long_name: Depth-Averaged Eastward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: eastward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
+  v:
+    comment: ' '
+    long_name: Depth-Averaged Northward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: northward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
