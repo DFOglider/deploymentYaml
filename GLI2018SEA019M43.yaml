@@ -81,9 +81,9 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2018_SEA019_43
-  keywords: Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
-    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity,
+  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
+    Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Ocean
+    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Pressure > Water Pressure,
     AUVS > Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -154,21 +154,21 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/
-  FLUORESCENCE_CHLA:
+  CHLA:
     accuracy: ''
     coordinates: time depth latitude longitude
     instrument: instrument_fluorometer
-    long_name: Chlorophyll-A signal from fluorescence sensor
+    long_name: Chlorophyll-A
     observation_type: measured
     precision: ''
     resolution: ''
     source: FLBBCD_CHL_SCALED
     standard_name: concentration_of_chlorophyll_in_sea_water
-    units: Dmnless
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
+    units: mg/m^3
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UMMC/
     valid_max: ''
     valid_min: ''
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/
   FREQUENCY_DOXY:
     accuracy: ''
     calculate_oxygenConcentration: sbe43Fhz2conc

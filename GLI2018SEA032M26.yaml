@@ -69,10 +69,10 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2018_SEA032_26
-  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
-    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature
-    > Water Temperature, Earth Science > Oceans > Ocean Chemistry > Dissolved Gases,
-    Earth Science > Oceans > Salinity/Density > Conductivity, AUVS > Autonomous Underwater
+  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
+    Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
+    > Conductivity, Earth Science > Oceans > Ocean Chemistry > Dissolved Gases, Earth
+    Science > Oceans > Ocean Chemistry > Chlorophyll, AUVS > Autonomous Underwater
     Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -143,6 +143,21 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/
+  CHLA:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometer
+    long_name: Chlorophyll-A
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_CHL_SCALED
+    standard_name: concentration_of_chlorophyll_in_sea_water
+    units: mg/m^3
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UMMC/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/
   DOXY:
     accuracy: 2.0
     coordinates: time depth latitude longitude
@@ -158,21 +173,6 @@ netcdf_variables:
     valid_max: 425.0
     valid_min: 0.0
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/
-  FLUORESCENCE_CHLA:
-    accuracy: ''
-    coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
-    long_name: Chlorophyll-A signal from fluorescence sensor
-    observation_type: measured
-    precision: ''
-    resolution: ''
-    source: FLBBCD_CHL_SCALED
-    standard_name: concentration_of_chlorophyll_in_sea_water
-    units: Dmnless
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
-    valid_max: ''
-    valid_min: ''
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/FLUOCHLA/
   GLIDER_HEADING:
     coordinates: time depth latitude longitude
     long_name: Orientation (horizontal relative to magnetic north) of measurement
