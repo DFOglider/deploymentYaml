@@ -72,6 +72,7 @@ metadata:
   deployment_id: 77
   deployment_name: dfo-Margaree024-20230621
   deployment_start: 2023-06-21
+  deployment_vessel: ''
   featureType: trajectory
   format_version: IOOS_Glider_NetCDF_v2.0.nc
   glider_instrument_name: SeaExplorer
@@ -82,10 +83,10 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2023_SEA024_077
-  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
-    Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
-    > Conductivity, Earth Science > Oceans > Ocean Chemistry > Dissolved Gases, Earth
-    Science > Oceans > Ocean Chemistry > Chlorophyll, AUVS > Autonomous Underwater
+  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
+    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature
+    > Water Temperature, Earth Science > Oceans > Ocean Chemistry > Dissolved Gases,
+    Earth Science > Oceans > Salinity/Density > Conductivity, AUVS > Autonomous Underwater
     Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -105,6 +106,7 @@ metadata:
   publisher_email: BIO.Datashop@dfo-mpo.gc.ca
   publisher_name: Bedford Institute of Oceanography
   publisher_url: https://www.bio.gc.ca/index-en.php
+  recovery_vessel: ''
   references: ''
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.

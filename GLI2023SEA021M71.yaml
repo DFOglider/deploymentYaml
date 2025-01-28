@@ -82,6 +82,7 @@ metadata:
   deployment_id: 71
   deployment_name: dfo-Skye021-20230411
   deployment_start: 2023-04-11
+  deployment_vessel: CCGS Sigma T
   featureType: trajectory
   format_version: IOOS_Glider_NetCDF_v2.0.nc
   glider_instrument_name: SeaExplorer
@@ -92,10 +93,11 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2023_SEA021_71
-  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
-    Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
-    > Conductivity, Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth
-    Science > Oceans > Salinity/Density > Salinity, AUVS > Autonomous Underwater Vehicles
+  keywords: Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science
+    > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Salinity/Density
+    > Salinity, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
+    Science > Oceans > Salinity/Density > Conductivity, AUVS > Autonomous Underwater
+    Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
@@ -114,6 +116,7 @@ metadata:
   publisher_email: BIO.Datashop@dfo-mpo.gc.ca
   publisher_name: Bedford Institute of Oceanography
   publisher_url: https://www.bio.gc.ca/index-en.php
+  recovery_vessel: CCGS Sigma T
   references: ''
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.

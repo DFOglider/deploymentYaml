@@ -83,6 +83,7 @@ metadata:
   deployment_id: 99
   deployment_name: dfo-Mersey022-20240606
   deployment_start: 2024-06-06
+  deployment_vessel: C&P
   featureType: trajectory
   format_version: IOOS_Glider_NetCDF_v2.0.nc
   glider_instrument_name: SeaExplorer
@@ -93,9 +94,9 @@ metadata:
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2024_SEA022_99
-  keywords: Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth
-    Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Ocean
-    Pressure > Water Pressure, Earth Science > Oceans > Ocean Chemistry > Chlorophyll,
+  keywords: Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
+    > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Temperature
+    > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity,
     AUVS > Autonomous Underwater Vehicles
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
@@ -115,6 +116,7 @@ metadata:
   publisher_email: BIO.Datashop@dfo-mpo.gc.ca
   publisher_name: Bedford Institute of Oceanography
   publisher_url: https://www.bio.gc.ca/index-en.php
+  recovery_vessel: Narry Face
   references: ''
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
