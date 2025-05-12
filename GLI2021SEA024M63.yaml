@@ -1,39 +1,45 @@
 glider_devices:
-  ctd:
+  CTD:
     calibration_date: '2019-12-29'
     calibration_report: '"GPCTD_0241_20191203_P.pdf, GPCTD_0241_20191229_C.pdf, GPCTD_0241_20191229_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0241"'
     type: platform
-  fluorometer:
+  CTD2:
+    calibration_date: '2020-11-25'
+    calibration_report: '"RINKO_inHouseCal"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
+    make: JFE Advantech
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
+    make_model: JFE Advantech JFE Rinko ARO-FT
+    model: JFE Rinko ARO-FT
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
+    platform: platform
+    serial_number: '"0020"'
+    type: platform
+  fluorometers:
     calibration_date: '2017-05-04'
     calibration_report: '"FLBBCD_4739_20170504.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4739"'
-    type: platform
-  oxygen:
-    calibration_date: '2020-11-25'
-    calibration_report: '"RINKO_inHouseCal"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: Fast optical DO
-    make: JFE Advantech Co., Ltd.
-    make_model: JFE Advantech Co., Ltd. AROD-FT-CE
-    model: AROD-FT-CE
-    platform: platform
-    serial_number: '"0020"'
     type: platform
   uvFluorometer:
     calibration_date: '2020-03-16'
@@ -41,9 +47,11 @@ glider_devices:
     comment: ' '
     factory_calibrated: 'yes'
     long_name: MiniFluo UV1
-    make: Alseamar
-    make_model: Alseamar MFL#27
+    make: Alsemar Alcen
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0328/
+    make_model: Alsemar Alcen MFL#27
     model: MFL#27
+    modelVocabulary: null
     platform: platform
     serial_number: '"MFL-01-M-10000-ENS-001-SN7"'
     type: platform
@@ -83,10 +91,10 @@ metadata:
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2021_SEA024_63
   keywords: AUVS > Autonomous Underwater Vehicles, Earth Science > Oceans > Ocean
-    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Chemistry > Dissolved
-    Gases, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science
-    > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density
-    > Conductivity
+    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Pressure > Water Pressure,
+    Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science
+    > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density
+    > Salinity
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
@@ -117,7 +125,7 @@ netcdf_variables:
   BBP700:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Particle backscattering at 700 nanometers
     observation_type: measured
     precision: ''
@@ -132,7 +140,7 @@ netcdf_variables:
   CDOM:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Concentration of coloured dissolved organic matter in sea water
     observation_type: measured
     precision: ''
@@ -147,7 +155,7 @@ netcdf_variables:
   CHLA:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Chlorophyll-A
     observation_type: measured
     precision: ''
@@ -159,21 +167,6 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/
-  DOXY:
-    accuracy: 2.0
-    coordinates: time depth latitude longitude
-    instrument: instrument_oxygen
-    long_name: Dissolved oxygen
-    observation_type: measured
-    precision: ''
-    resolution: 0.01
-    source: AROD_FT_DO
-    standard_name: mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
-    units: umol/kg
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/KGUM/
-    valid_max: 425.0
-    valid_min: 0.0
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/
   GLIDER_HEADING:
     coordinates: time depth latitude longitude
     long_name: Orientation (horizontal relative to magnetic north) of measurement
@@ -262,25 +255,25 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: ''
-  TEMP_DOXY:
-    accuracy: 0.01
+  PSAL2:
+    accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_oxygen
-    long_name: Sea temperature from oxygen sensor ITS-90 scale
+    instrument: instrument_CTD2
+    long_name: Practical salinity
     observation_type: measured
     precision: ''
-    resolution: 0.001
-    source: AROD_FT_TEMP
-    standard_name: temperature_of_sensor_for_oxygen_in_sea_water
-    units: degC
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
-    valid_max: 45.0
-    valid_min: -3.0
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/
+    resolution: ''
+    source: LEGATO_SALINITY
+    standard_name: sea_water_salinity
+    units: Dmnless
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Electrical conductivity
     observation_type: measured
     precision: ''
@@ -293,11 +286,27 @@ netcdf_variables:
     valid_max: 9.0
     valid_min: 0.0
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
+  conductivity2:
+    accuracy: 0.0003
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD2
+    long_name: Electrical conductivity
+    observation_type: measured
+    precision: ''
+    replaceName: CNDC2
+    resolution: 1.0e-05
+    source: LEGATO_CONDUCTIVITY
+    standard_name: sea_water_electrical_conductivity
+    units: mS cm-1
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UECA/
+    valid_max: 8.5
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
   interpolate: false
   keep_variables:
   - GLIDER_PITCH
   - conductivity
-  - TEMP_DOXY
+  - conductivity2
   latitude:
     axis: Y
     conversion: nmea2deg
@@ -329,7 +338,7 @@ netcdf_variables:
   pressure:
     accuracy: 0.1
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea water pressure, equals 0 at sea-level
     observation_type: measured
     positive: down
@@ -344,16 +353,50 @@ netcdf_variables:
     valid_max: 1000.0
     valid_min: 0.0
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
+  pressure2:
+    accuracy: 0.05
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD2
+    long_name: Sea water pressure, equals 0 at sea-level
+    observation_type: measured
+    positive: down
+    precision: ''
+    reference_datum: sea-surface
+    replaceName: PRES2
+    resolution: 0.001
+    source: LEGATO_PRESSURE
+    standard_name: sea_water_pressure
+    units: dbar
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPDB/
+    valid_max: 1000.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
   temperature:
     accuracy: 0.002
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea temperature in-situ ITS-90 scale
     observation_type: measured
     precision: ''
     replaceName: TEMP
     resolution: 0.001
     source: GPCTD_TEMPERATURE
+    standard_name: sea_water_temperature
+    units: degC
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
+    valid_max: 42.0
+    valid_min: -5.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
+  temperature2:
+    accuracy: 0.002
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD2
+    long_name: Sea temperature in-situ ITS-90 scale
+    observation_type: measured
+    precision: ''
+    replaceName: TEMP2
+    resolution: 5.0e-05
+    source: LEGATO_TEMPERATURE
     standard_name: sea_water_temperature
     units: degC
     unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
@@ -372,41 +415,47 @@ netcdf_variables:
   timebase:
     source: NAV_LATITUDE
 profile_variables:
-  instrument_ctd:
+  instrument_CTD:
     calibration_date: '2019-12-29'
     calibration_report: '"GPCTD_0241_20191203_P.pdf, GPCTD_0241_20191229_C.pdf, GPCTD_0241_20191229_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0241"'
     type: platform
-  instrument_fluorometer:
+  instrument_CTD2:
+    calibration_date: '2020-11-25'
+    calibration_report: '"RINKO_inHouseCal"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
+    make: JFE Advantech
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
+    make_model: JFE Advantech JFE Rinko ARO-FT
+    model: JFE Rinko ARO-FT
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
+    platform: platform
+    serial_number: '"0020"'
+    type: platform
+  instrument_fluorometers:
     calibration_date: '2017-05-04'
     calibration_report: '"FLBBCD_4739_20170504.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4739"'
-    type: platform
-  instrument_oxygen:
-    calibration_date: '2020-11-25'
-    calibration_report: '"RINKO_inHouseCal"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: Fast optical DO
-    make: JFE Advantech Co., Ltd.
-    make_model: JFE Advantech Co., Ltd. AROD-FT-CE
-    model: AROD-FT-CE
-    platform: platform
-    serial_number: '"0020"'
     type: platform
   instrument_uvFluorometer:
     calibration_date: '2020-03-16'
@@ -414,9 +463,11 @@ profile_variables:
     comment: ' '
     factory_calibrated: 'yes'
     long_name: MiniFluo UV1
-    make: Alseamar
-    make_model: Alseamar MFL#27
+    make: Alsemar Alcen
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0328/
+    make_model: Alsemar Alcen MFL#27
     model: MFL#27
+    modelVocabulary: null
     platform: platform
     serial_number: '"MFL-01-M-10000-ENS-001-SN7"'
     type: platform

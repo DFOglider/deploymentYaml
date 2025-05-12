@@ -1,25 +1,29 @@
 glider_devices:
-  ctd:
+  CTD:
     calibration_date: '2020-07-29'
     calibration_report: '"LEGATO_205045_20200729.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Legato3 CTD|fast16
+    long_name: RBR Legato3 CTD
     make: RBR
-    make_model: RBR Legato3|fast16
-    model: Legato3|fast16
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Legato3
+    model: RBR Legato3
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1745/
     platform: platform
     serial_number: '"205045"'
     type: platform
-  fluorometer:
+  fluorometers:
     calibration_date: '2016-12-19'
     calibration_report: '"FLBBCD_4546_20161219.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4546"'
     type: platform
@@ -58,10 +62,7 @@ metadata:
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2021_SEA032_65
   keywords: AUVS > Autonomous Underwater Vehicles, Earth Science > Oceans > Ocean
-    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Pressure > Water Pressure,
-    Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science
-    > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density
-    > Salinity
+    Chemistry > Chlorophyll
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
@@ -92,7 +93,7 @@ netcdf_variables:
   BBP700:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Particle backscattering at 700 nanometers
     observation_type: measured
     precision: ''
@@ -107,7 +108,7 @@ netcdf_variables:
   CDOM:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Concentration of coloured dissolved organic matter in sea water
     observation_type: measured
     precision: ''
@@ -122,7 +123,7 @@ netcdf_variables:
   CHLA:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Chlorophyll-A
     observation_type: measured
     precision: ''
@@ -162,41 +163,9 @@ netcdf_variables:
     units: deg
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
-  PSAL:
-    accuracy: ''
-    coordinates: time depth latitude longitude
-    instrument: instrument_ctd
-    long_name: Practical salinity
-    observation_type: measured
-    precision: ''
-    resolution: ''
-    source: LEGATO_SALINITY
-    standard_name: sea_water_salinity
-    units: Dmnless
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
-    valid_max: ''
-    valid_min: ''
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/
-  conductivity:
-    accuracy: 0.0003
-    coordinates: time depth latitude longitude
-    instrument: instrument_ctd
-    long_name: Electrical conductivity
-    observation_type: measured
-    precision: ''
-    replaceName: CNDC
-    resolution: 1.0e-05
-    source: LEGATO_CONDUCTIVITY
-    standard_name: sea_water_electrical_conductivity
-    units: mS cm-1
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UECA/
-    valid_max: 8.5
-    valid_min: 0.0
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
   interpolate: false
   keep_variables:
   - GLIDER_PITCH
-  - conductivity
   latitude:
     axis: Y
     conversion: nmea2deg
@@ -225,40 +194,6 @@ netcdf_variables:
     valid_max: '180.00'
     valid_min: '-180.00'
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LON/
-  pressure:
-    accuracy: 0.05
-    coordinates: time depth latitude longitude
-    instrument: instrument_ctd
-    long_name: Sea water pressure, equals 0 at sea-level
-    observation_type: measured
-    positive: down
-    precision: ''
-    reference_datum: sea-surface
-    replaceName: PRES
-    resolution: 0.001
-    source: LEGATO_PRESSURE
-    standard_name: sea_water_pressure
-    units: dbar
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPDB/
-    valid_max: 1000.0
-    valid_min: 0.0
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
-  temperature:
-    accuracy: 0.002
-    coordinates: time depth latitude longitude
-    instrument: instrument_ctd
-    long_name: Sea temperature in-situ ITS-90 scale
-    observation_type: measured
-    precision: ''
-    replaceName: TEMP
-    resolution: 5.0e-05
-    source: LEGATO_TEMPERATURE
-    standard_name: sea_water_temperature
-    units: degC
-    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
-    valid_max: 42.0
-    valid_min: -5.0
-    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
   time:
     axis: T
     long_name: Time
@@ -271,27 +206,31 @@ netcdf_variables:
   timebase:
     source: NAV_LATITUDE
 profile_variables:
-  instrument_ctd:
+  instrument_CTD:
     calibration_date: '2020-07-29'
     calibration_report: '"LEGATO_205045_20200729.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Legato3 CTD|fast16
+    long_name: RBR Legato3 CTD
     make: RBR
-    make_model: RBR Legato3|fast16
-    model: Legato3|fast16
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Legato3
+    model: RBR Legato3
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1745/
     platform: platform
     serial_number: '"205045"'
     type: platform
-  instrument_fluorometer:
+  instrument_fluorometers:
     calibration_date: '2016-12-19'
     calibration_report: '"FLBBCD_4546_20161219.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4546"'
     type: platform

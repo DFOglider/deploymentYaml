@@ -1,25 +1,29 @@
 glider_devices:
-  ctd:
+  CTD:
     calibration_date: '2017-11-02'
     calibration_report: '"GPCTD_0241_20171020_P.pdf, GPCTD_0241_20171102_C.pdf, GPCTD_0241_20171102_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0241"'
     type: platform
-  fluorometer:
+  fluorometers:
     calibration_date: '2016-12-07'
     calibration_report: '"FLBBCD_4548_20161207.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4548"'
     type: platform
@@ -103,7 +107,7 @@ netcdf_variables:
   BBP700:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Particle backscattering at 700 nanometers
     observation_type: measured
     precision: ''
@@ -118,7 +122,7 @@ netcdf_variables:
   CDOM:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Concentration of coloured dissolved organic matter in sea water
     observation_type: measured
     precision: ''
@@ -133,7 +137,7 @@ netcdf_variables:
   CHLA:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Chlorophyll-A
     observation_type: measured
     precision: ''
@@ -176,7 +180,7 @@ netcdf_variables:
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Electrical conductivity
     observation_type: measured
     precision: ''
@@ -224,7 +228,7 @@ netcdf_variables:
   pressure:
     accuracy: 0.1
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea water pressure, equals 0 at sea-level
     observation_type: measured
     positive: down
@@ -242,7 +246,7 @@ netcdf_variables:
   temperature:
     accuracy: 0.002
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea temperature in-situ ITS-90 scale
     observation_type: measured
     precision: ''
@@ -267,27 +271,31 @@ netcdf_variables:
   timebase:
     source: NAV_LATITUDE
 profile_variables:
-  instrument_ctd:
+  instrument_CTD:
     calibration_date: '2017-11-02'
     calibration_report: '"GPCTD_0241_20171020_P.pdf, GPCTD_0241_20171102_C.pdf, GPCTD_0241_20171102_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0241"'
     type: platform
-  instrument_fluorometer:
+  instrument_fluorometers:
     calibration_date: '2016-12-07'
     calibration_report: '"FLBBCD_4548_20161207.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
     long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
     model: FLBBCDEXP
+    modelVocabulary: null
     platform: platform
     serial_number: '"4548"'
     type: platform

@@ -1,31 +1,21 @@
 glider_devices:
-  ctd:
+  CTD:
     calibration_date: '2024-04-28'
     calibration_report: '"GPCTD_0186_20231129_P_Post Cruise.pdf, GPCTD_0186_20231201_C_Post
       Cruise.pdf, GPCTD_0186_20231201_T_Post Cruise.pdf, GPCTD_0186_20240428_C.pdf,
       GPCTD_0186_20240428_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0186"'
     type: platform
-  fluorometer:
-    calibration_date: '2016-11-17'
-    calibration_report: '"FLBBCD_4551_20161117.pdf"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
-    model: FLBBCDEXP
-    platform: platform
-    serial_number: '"4551"'
-    type: platform
-  oxygen:
+  dissolvedgassensors:
     calibration_coefficients:
       A: -0.00316
       B: 0.000161
@@ -43,12 +33,28 @@ glider_devices:
       temperature: GPCTD_TEMP
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: 43 Dissolved Oxygen
-    make: Sea-Bird
-    make_model: Sea-Bird 43F
-    model: 43F
+    long_name: Sea-Bird SBE 43F Dissolved Oxygen Sensor
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE 43F DO
+    model: SBE 43F DO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
     platform: platform
     serial_number: '"43-3338"'
+    type: platform
+  fluorometers:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
+    model: FLBBCDEXP
+    modelVocabulary: null
+    platform: platform
+    serial_number: '"4551"'
     type: platform
 metadata:
   Conventions: CF-1.6
@@ -130,7 +136,7 @@ netcdf_variables:
   BBP700:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Particle backscattering at 700 nanometers
     observation_type: measured
     precision: ''
@@ -145,7 +151,7 @@ netcdf_variables:
   CDOM:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Concentration of coloured dissolved organic matter in sea water
     observation_type: measured
     precision: ''
@@ -160,7 +166,7 @@ netcdf_variables:
   CHLA:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_fluorometer
+    instrument: instrument_fluorometers
     long_name: Chlorophyll-A
     observation_type: measured
     precision: ''
@@ -176,7 +182,7 @@ netcdf_variables:
     accuracy: ''
     calculate_oxygenConcentration: sbe43Fhz2conc
     coordinates: time depth latitude longitude
-    instrument: instrument_oxygen
+    instrument: instrument_dissolvedgassensors
     long_name: Frequency reported by oxygen sensor
     observation_type: measured
     precision: ''
@@ -219,7 +225,7 @@ netcdf_variables:
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Electrical conductivity
     observation_type: measured
     precision: ''
@@ -268,7 +274,7 @@ netcdf_variables:
   pressure:
     accuracy: 0.1
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea water pressure, equals 0 at sea-level
     observation_type: measured
     positive: down
@@ -286,7 +292,7 @@ netcdf_variables:
   temperature:
     accuracy: 0.002
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_CTD
     long_name: Sea temperature in-situ ITS-90 scale
     observation_type: measured
     precision: ''
@@ -311,33 +317,23 @@ netcdf_variables:
   timebase:
     source: NAV_LATITUDE
 profile_variables:
-  instrument_ctd:
+  instrument_CTD:
     calibration_date: '2024-04-28'
     calibration_report: '"GPCTD_0186_20231129_P_Post Cruise.pdf, GPCTD_0186_20231201_C_Post
       Cruise.pdf, GPCTD_0186_20231201_T_Post Cruise.pdf, GPCTD_0186_20240428_C.pdf,
       GPCTD_0186_20240428_T.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: Glider Payload CTD
-    make: Sea-Bird
-    make_model: Sea-Bird GPCTD
-    model: GPCTD
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
     platform: platform
     serial_number: '"0186"'
     type: platform
-  instrument_fluorometer:
-    calibration_date: '2016-11-17'
-    calibration_report: '"FLBBCD_4551_20161117.pdf"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: ECO Chlorophyll Fluorometer
-    make: Wetlabs
-    make_model: Wetlabs FLBBCDEXP
-    model: FLBBCDEXP
-    platform: platform
-    serial_number: '"4551"'
-    type: platform
-  instrument_oxygen:
+  instrument_dissolvedgassensors:
     calibration_coefficients:
       A: -0.00316
       B: 0.000161
@@ -355,12 +351,28 @@ profile_variables:
       temperature: GPCTD_TEMP
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: 43 Dissolved Oxygen
-    make: Sea-Bird
-    make_model: Sea-Bird 43F
-    model: 43F
+    long_name: Sea-Bird SBE 43F Dissolved Oxygen Sensor
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE 43F DO
+    model: SBE 43F DO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
     platform: platform
     serial_number: '"43-3338"'
+    type: platform
+  instrument_fluorometers:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
+    model: FLBBCDEXP
+    modelVocabulary: null
+    platform: platform
+    serial_number: '"4551"'
     type: platform
   lat_uv:
     comment: ' '
