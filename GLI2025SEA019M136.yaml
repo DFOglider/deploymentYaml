@@ -1,0 +1,401 @@
+glider_devices:
+  CTD:
+    calibration_date: '2025-04-17'
+    calibration_report: LEGATO_214386_20250417.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: RBR Legato3 CTD
+    make: RBR
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Legato3
+    model: RBR Legato3
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1745/
+    platform: platform
+    serial_number: '"214386"'
+    type: platform
+  dissolvedgassensors:
+    calibration_date: '2025-03-25'
+    calibration_report: CODA_212973_20250325.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: RBR Coda T.ODO Temperature and Dissolved Oxygen Sensor
+    make: RBR
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Coda T.ODO
+    model: RBR Coda T.ODO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1717/
+    platform: platform
+    serial_number: '"212973"'
+    type: platform
+  fluorometers:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
+    model: FLBBCDEXP
+    modelVocabulary: null
+    platform: platform
+    serial_number: '"4551"'
+    type: platform
+metadata:
+  Conventions: CF-1.6
+  Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
+  acknowledgement: Funding from Fisheries and Oceans Canada.
+  comment: ' '
+  contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
+    of Oceanography
+  contributing_institutions_role: Operator, PI
+  contributing_institutions_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/,
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/
+  contributing_institutions_vocabulary: https://edmo.seadatanet.org/report/1811, https://edmo.seadatanet.org/report/1811
+  contributor_name: Clark Richards, Melany Belzile
+  contributor_role: PI, Operator
+  contributor_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/,
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/
+  creator_email: BIO.Datashop@dfo-mpo.gc.ca
+  creator_name: Bedford Institute of Oceanography
+  creator_url: https://www.bio.gc.ca/index-en.php
+  data_mode: P
+  deployment_end: 2025-05-09
+  deployment_id: 136
+  deployment_name: dfo-Mira019-20250509
+  deployment_start: 2025-05-09
+  deployment_vessel: CCGS Sigma T
+  featureType: trajectory
+  format_version: IOOS_Glider_NetCDF_v2.0.nc
+  glider_instrument_name: SeaExplorer
+  glider_model: SeaExplorer
+  glider_name: Mira
+  glider_serial: 019
+  glider_wmo: 4800925
+  institution: Bedford Institute of Oceanography
+  institution_vocabulary: https://edmo.seadatanet.org/report/1811
+  internal_mission_identifier: GLI2025_SEA019_136
+  keywords: AUVS > Autonomous Underwater Vehicles, Earth Science > Oceans > Ocean
+    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Chemistry > Dissolved
+    Gases
+  keywords_vocabulary: GCMD Science Keywords
+  license: Open Government Licence - Canada
+  metadata_link: ''
+  naming_authority: ''
+  network: null
+  platform: sub-surface gliders
+  platform_model: SeaExplorer
+  platform_name: Mira
+  platform_serial_number: 019
+  platform_type: SeaExplorer Glider
+  platform_vocabulary: https://vocab.nerc.ac.uk/collection/L06/current/27/
+  processing_level: ''
+  project: Atlantic Zone Monitoring Program
+  project_url: ''
+  publisher_email: BIO.Datashop@dfo-mpo.gc.ca
+  publisher_name: Bedford Institute of Oceanography
+  publisher_url: https://www.bio.gc.ca/index-en.php
+  recovery_vessel: CCGS Sigma T
+  references: ''
+  sea_name: Northwest Atlantic Ocean (limit-40 W)
+  source: Observational data from a profiling glider.
+  standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
+  summary: null
+  transmission_system: ''
+  wmo_id: 4800925
+  wmo_identifier: 4800925
+netcdf_variables:
+  BBP700:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometers
+    long_name: Particle backscattering at 700 nanometers
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_BB_700_SCALED
+    standard_name: ''
+    units: /m/sr
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/PMSR/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/BBP700/
+  CDOM:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometers
+    long_name: Concentration of coloured dissolved organic matter in sea water
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_CDOM_SCALED
+    standard_name: ''
+    units: ppb
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPPB/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CDOM/
+  CHLA:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_fluorometers
+    long_name: Chlorophyll-A
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: FLBBCD_CHL_SCALED
+    standard_name: concentration_of_chlorophyll_in_sea_water
+    units: mg/m^3
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UMMC/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/
+  DOXY:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_dissolvedgassensors
+    long_name: Dissolved oxygen
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: LEGATO_CODA_DO
+    standard_name: mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
+    units: umol/kg
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/KGUM/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/DOXY/
+  GLIDER_HEADING:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (horizontal relative to magnetic north) of measurement
+      platform {heading} by compass
+    observation_type: measured
+    source: Heading
+    standard_name: ''
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/
+  GLIDER_PITCH:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (pitch) of measurement platform by inclinometer
+    observation_type: measured
+    source: Pitch
+    standard_name: platform_pitch
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PITCH/
+  GLIDER_ROLL:
+    coordinates: time depth latitude longitude
+    long_name: Orientation (roll angle) of measurement platform by inclinometer
+    observation_type: measured
+    source: Roll
+    standard_name: platform_roll
+    units: deg
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
+  LEGATO_CODA_CORR_PHASE:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_dissolvedgassensors
+    long_name: ''
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: LEGATO_CODA_CORR_PHASE
+    standard_name: ''
+    units: ''
+    unitsvocabulary: ''
+    valid_max: ''
+    valid_min: ''
+    vocabulary: ''
+  TEMP_DOXY:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_dissolvedgassensors
+    long_name: Sea temperature from oxygen sensor ITS-90 scale
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: LEGATO_CODA_TEMPERATURE
+    standard_name: temperature_of_sensor_for_oxygen_in_sea_water
+    units: degC
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMPDOXY/
+  interpolate: false
+  keep_variables:
+  - GLIDER_PITCH
+  - LEGATO_CODA_CORR_PHASE
+  latitude:
+    axis: Y
+    conversion: nmea2deg
+    coordinate_reference_frame: 'urn: ogc:crs: EPSG::4326'
+    long_name: Latitude north
+    observation_type: measured
+    reference: WGS84
+    source: NAV_LATITUDE
+    standard_name: latitude
+    units: degree_north
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGN/
+    valid_max: '90.00'
+    valid_min: '-90.00'
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LAT/
+  longitude:
+    axis: X
+    conversion: nmea2deg
+    coordinate_reference_frame: 'urn: ogc:crs: EPSG::4326'
+    long_name: Longitude east
+    observation_type: measured
+    reference: WGS84
+    source: NAV_LONGITUDE
+    standard_name: longitude
+    units: degree_east
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGE/
+    valid_max: '180.00'
+    valid_min: '-180.00'
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LON/
+  time:
+    axis: T
+    long_name: Time
+    observation_type: measured
+    source: Timestamp
+    standard_name: time
+    units: seconds since 1970-01-01T00:00:00Z
+    unitsVocabulary: ''
+    vocabulary: ''
+  timebase:
+    source: NAV_LATITUDE
+profile_variables:
+  instrument_CTD:
+    calibration_date: '2025-04-17'
+    calibration_report: LEGATO_214386_20250417.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: RBR Legato3 CTD
+    make: RBR
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Legato3
+    model: RBR Legato3
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1745/
+    platform: platform
+    serial_number: '"214386"'
+    type: platform
+  instrument_dissolvedgassensors:
+    calibration_date: '2025-03-25'
+    calibration_report: CODA_212973_20250325.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: RBR Coda T.ODO Temperature and Dissolved Oxygen Sensor
+    make: RBR
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0049/
+    make_model: RBR RBR Coda T.ODO
+    model: RBR Coda T.ODO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1717/
+    platform: platform
+    serial_number: '"212973"'
+    type: platform
+  instrument_fluorometers:
+    calibration_date: '2016-11-17'
+    calibration_report: '"FLBBCD_4551_20161117.pdf"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: ECO Chlorophyll Fluorometer
+    make: WET Labs
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
+    make_model: WET Labs FLBBCDEXP
+    model: FLBBCDEXP
+    modelVocabulary: null
+    platform: platform
+    serial_number: '"4551"'
+    type: platform
+  lat_uv:
+    comment: ' '
+    long_name: Depth-Averaged Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  lon_uv:
+    comment: ' '
+    long_name: Depth-Averaged Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_id:
+    comment: ' '
+    long_name: Profile ID
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+    valid_max: 2147483647
+    valid_min: 1
+  profile_lat:
+    comment: ' '
+    long_name: Profile Center Latitude
+    observation_type: calculated
+    platform: platform
+    standard_name: latitude
+    units: degree_north
+    valid_max: '90.00'
+    valid_min: '-90.00'
+  profile_lon:
+    comment: ' '
+    long_name: Profile Center Longitude
+    observation_type: calculated
+    platform: platform
+    standard_name: longitude
+    units: degree_east
+    valid_max: '180.00'
+    valid_min: '-180.00'
+  profile_time:
+    comment: ' '
+    long_name: Profile Center Time
+    observation_type: calculated
+    platform: platform
+    standard_name: time
+  profile_time_end:
+    comment: ' '
+    long_name: Profile End Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  profile_time_start:
+    comment: ' '
+    long_name: Profile Start Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  time_uv:
+    comment: ' '
+    long_name: Depth-Averaged Time
+    observation_type: calculated
+    platform: platform
+    standard_name: ''
+    units: ''
+  u:
+    comment: ' '
+    long_name: Depth-Averaged Eastward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: eastward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
+  v:
+    comment: ' '
+    long_name: Depth-Averaged Northward Sea Water Velocity
+    observation_type: calculated
+    platform: platform
+    standard_name: northward_sea_water_velocity
+    units: m s-1
+    valid_max: 10
+    valid_min: -10
