@@ -45,12 +45,12 @@ glider_devices:
     calibration_report: '"FLBBCD_4548_20161207.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: ECO Chlorophyll Fluorometer
+    long_name: WET Labs {Sea-Bird WETLabs} ECO FLBBCD scattering fluorescence sensor
     make: WET Labs
     makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
-    make_model: WET Labs FLBBCDEXP
-    model: FLBBCDEXP
-    modelVocabulary: null
+    make_model: WET Labs WET Labs ECO FLBBCD
+    model: WET Labs ECO FLBBCD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1141/
     platform: platform
     serial_number: '"4548"'
     type: platform
@@ -361,12 +361,12 @@ profile_variables:
     calibration_report: '"FLBBCD_4548_20161207.pdf"'
     comment: ' '
     factory_calibrated: 'yes'
-    long_name: ECO Chlorophyll Fluorometer
+    long_name: WET Labs {Sea-Bird WETLabs} ECO FLBBCD scattering fluorescence sensor
     make: WET Labs
     makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0026/
-    make_model: WET Labs FLBBCDEXP
-    model: FLBBCDEXP
-    modelVocabulary: null
+    make_model: WET Labs WET Labs ECO FLBBCD
+    model: WET Labs ECO FLBBCD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1141/
     platform: platform
     serial_number: '"4548"'
     type: platform
