@@ -14,7 +14,7 @@ glider_devices:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  CTD2:
+  dissolvedgassensors:
     calibration_date: '2022-02-05'
     calibration_report: '"SEA032_RINKO_calib_files_SN0020_2022"'
     comment: ' '
@@ -375,7 +375,7 @@ profile_variables:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  instrument_CTD2:
+  instrument_dissolvedgassensors:
     calibration_date: '2022-02-05'
     calibration_report: '"SEA032_RINKO_calib_files_SN0020_2022"'
     comment: ' '

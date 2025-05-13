@@ -13,20 +13,6 @@ glider_devices:
     platform: platform
     serial_number: '"0184"'
     type: platform
-  CTD2:
-    calibration_date: '2020-11-25'
-    calibration_report: '"RINKO_inHouseCal"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
-    make: JFE Advantech
-    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
-    make_model: JFE Advantech JFE Rinko ARO-FT
-    model: JFE Rinko ARO-FT
-    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
-    platform: platform
-    serial_number: '"0020"'
-    type: platform
   dissolvedgassensors:
     calibration_coefficients:
       A: -0.0043
@@ -52,6 +38,20 @@ glider_devices:
     modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
     platform: platform
     serial_number: '"43-3336"'
+    type: platform
+  dissolvedgassensors2:
+    calibration_date: '2020-11-25'
+    calibration_report: '"RINKO_inHouseCal"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
+    make: JFE Advantech
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
+    make_model: JFE Advantech JFE Rinko ARO-FT
+    model: JFE Rinko ARO-FT
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
+    platform: platform
+    serial_number: '"0020"'
     type: platform
   fluorometers:
     calibration_date: '2017-05-04'
@@ -406,20 +406,6 @@ profile_variables:
     platform: platform
     serial_number: '"0184"'
     type: platform
-  instrument_CTD2:
-    calibration_date: '2020-11-25'
-    calibration_report: '"RINKO_inHouseCal"'
-    comment: ' '
-    factory_calibrated: 'yes'
-    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
-    make: JFE Advantech
-    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
-    make_model: JFE Advantech JFE Rinko ARO-FT
-    model: JFE Rinko ARO-FT
-    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
-    platform: platform
-    serial_number: '"0020"'
-    type: platform
   instrument_dissolvedgassensors:
     calibration_coefficients:
       A: -0.0043
@@ -445,6 +431,20 @@ profile_variables:
     modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
     platform: platform
     serial_number: '"43-3336"'
+    type: platform
+  instrument_dissolvedgassensors2:
+    calibration_date: '2020-11-25'
+    calibration_report: '"RINKO_inHouseCal"'
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: JFE Advantech Rinko FT ARO-FT oxygen sensor
+    make: JFE Advantech
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0053/
+    make_model: JFE Advantech JFE Rinko ARO-FT
+    model: JFE Rinko ARO-FT
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1783/
+    platform: platform
+    serial_number: '"0020"'
     type: platform
   instrument_fluorometers:
     calibration_date: '2017-05-04'
