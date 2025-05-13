@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  CTD2:
+  dissolvedgassensors:
     calibration_date: '2017-11-03'
     calibration_report: '"AROD_FT_0020_20171103.pdf"'
     comment: ' '
@@ -299,7 +299,7 @@ profile_variables:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  instrument_CTD2:
+  instrument_dissolvedgassensors:
     calibration_date: '2017-11-03'
     calibration_report: '"AROD_FT_0020_20171103.pdf"'
     comment: ' '
