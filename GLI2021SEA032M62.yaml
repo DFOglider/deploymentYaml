@@ -62,7 +62,10 @@ metadata:
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
   internal_mission_identifier: GLI2021_SEA032_62
   keywords: AUVS > Autonomous Underwater Vehicles, Earth Science > Oceans > Ocean
-    Chemistry > Chlorophyll
+    Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Pressure > Water Pressure,
+    Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science
+    > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density
+    > Salinity
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
   metadata_link: ''
@@ -163,9 +166,41 @@ netcdf_variables:
     units: deg
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
+  PSAL:
+    accuracy: ''
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD
+    long_name: Practical salinity
+    observation_type: measured
+    precision: ''
+    resolution: ''
+    source: LEGATO_SALINITY
+    standard_name: sea_water_salinity
+    units: Dmnless
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UUUU/
+    valid_max: ''
+    valid_min: ''
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PSAL/
+  conductivity:
+    accuracy: 0.0003
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD
+    long_name: Electrical conductivity
+    observation_type: measured
+    precision: ''
+    replaceName: CNDC
+    resolution: 1.0e-05
+    source: LEGATO_CONDUCTIVITY
+    standard_name: sea_water_electrical_conductivity
+    units: mS cm-1
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UECA/
+    valid_max: 8.5
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
   interpolate: false
   keep_variables:
   - GLIDER_PITCH
+  - conductivity
   latitude:
     axis: Y
     conversion: nmea2deg
@@ -194,6 +229,40 @@ netcdf_variables:
     valid_max: '180.00'
     valid_min: '-180.00'
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LON/
+  pressure:
+    accuracy: 0.05
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD
+    long_name: Sea water pressure, equals 0 at sea-level
+    observation_type: measured
+    positive: down
+    precision: ''
+    reference_datum: sea-surface
+    replaceName: PRES
+    resolution: 0.001
+    source: LEGATO_PRESSURE
+    standard_name: sea_water_pressure
+    units: dbar
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPDB/
+    valid_max: 1000.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
+  temperature:
+    accuracy: 0.002
+    coordinates: time depth latitude longitude
+    instrument: instrument_CTD
+    long_name: Sea temperature in-situ ITS-90 scale
+    observation_type: measured
+    precision: ''
+    replaceName: TEMP
+    resolution: 5.0e-05
+    source: LEGATO_TEMPERATURE
+    standard_name: sea_water_temperature
+    units: degC
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
+    valid_max: 42.0
+    valid_min: -5.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
   time:
     axis: T
     long_name: Time
