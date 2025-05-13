@@ -116,7 +116,7 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: Bonavista line.
+  summary: DFO COGG.
   transmission_system: ''
   wmo_id: 4800994
   wmo_identifier: 4800994
