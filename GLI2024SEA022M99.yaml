@@ -179,6 +179,15 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CHLA/
+  DeadReckoning:
+    coordinates: time depth latitude longitude
+    long_name: ''
+    observation_type: measured
+    source: DeadReckoning
+    standard_name: ''
+    units: boolean
+    unitsVocabulary: ''
+    vocabulary: ''
   FREQUENCY_DOXY:
     accuracy: ''
     calculate_oxygenConcentration: sbe43Fhz2conc
@@ -311,7 +320,7 @@ netcdf_variables:
     long_name: Latitude north
     observation_type: measured
     reference: WGS84
-    source: NAV_LATITUDE
+    source: Lat
     standard_name: latitude
     units: degree_north
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGN/
@@ -325,7 +334,7 @@ netcdf_variables:
     long_name: Longitude east
     observation_type: measured
     reference: WGS84
-    source: NAV_LONGITUDE
+    source: Lon
     standard_name: longitude
     units: degree_east
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/DEGE/
