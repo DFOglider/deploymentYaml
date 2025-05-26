@@ -191,6 +191,15 @@ netcdf_variables:
     units: deg
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/ROLL/
+  NavState:
+    coordinates: time depth latitude longitude
+    long_name: ''
+    observation_type: measured
+    source: NavState
+    standard_name: ''
+    units: null
+    unitsVocabulary: ''
+    vocabulary: ''
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude

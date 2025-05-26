@@ -275,6 +275,15 @@ netcdf_variables:
     valid_max: ''
     valid_min: ''
     vocabulary: ''
+  NavState:
+    coordinates: time depth latitude longitude
+    long_name: ''
+    observation_type: measured
+    source: NavState
+    standard_name: ''
+    units: null
+    unitsVocabulary: ''
+    vocabulary: ''
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude
