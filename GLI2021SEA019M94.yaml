@@ -235,7 +235,7 @@ netcdf_variables:
     observation_type: measured
     source: NavState
     standard_name: ''
-    units: null
+    units: ''
     unitsVocabulary: ''
     vocabulary: ''
   conductivity:
