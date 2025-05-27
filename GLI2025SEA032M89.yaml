@@ -1,5 +1,5 @@
 glider_devices:
-  CTD:
+  ctd:
     calibration_date: '2024-12-11'
     calibration_report: GPCTD_0184_20241211_T.pdf, GPCTD_0184_20241211_C.pdf, GPCTD_0184_20241211_P.pdf
     comment: ' '
@@ -240,7 +240,7 @@ netcdf_variables:
   conductivity:
     accuracy: 0.0003
     coordinates: time depth latitude longitude
-    instrument: instrument_CTD
+    instrument: instrument_ctd
     long_name: Electrical conductivity
     observation_type: measured
     precision: ''
@@ -289,7 +289,7 @@ netcdf_variables:
   pressure:
     accuracy: 0.1
     coordinates: time depth latitude longitude
-    instrument: instrument_CTD
+    instrument: instrument_ctd
     long_name: Sea water pressure, equals 0 at sea-level
     observation_type: measured
     positive: down
@@ -307,7 +307,7 @@ netcdf_variables:
   temperature:
     accuracy: 0.002
     coordinates: time depth latitude longitude
-    instrument: instrument_CTD
+    instrument: instrument_ctd
     long_name: Sea temperature in-situ ITS-90 scale
     observation_type: measured
     precision: ''
@@ -332,7 +332,7 @@ netcdf_variables:
   timebase:
     source: NAV_LATITUDE
 profile_variables:
-  instrument_CTD:
+  instrument_ctd:
     calibration_date: '2024-12-11'
     calibration_report: GPCTD_0184_20241211_T.pdf, GPCTD_0184_20241211_C.pdf, GPCTD_0184_20241211_P.pdf
     comment: ' '
