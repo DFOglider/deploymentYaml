@@ -31,7 +31,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' '
+  comment: With legato and ecopuck. Science profile accoustique 1600, ctd and ecopuck
+    245 plus 45 x 2h drift
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

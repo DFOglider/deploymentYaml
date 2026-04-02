@@ -57,7 +57,9 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' '
+  comment: Deployment delayed 1 week because of weather, first time 3 glider in the
+    water. Iris was closed for 18h on a Sunday pm, glider drifted for 6.5h at the
+    surface, data shift in the files due to the acq.1.period not 0 in the config file.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI
@@ -115,7 +117,18 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: Bonavista line.
+  summary: The Atlantic Zone Monitoring Program (AZMP) was implemented in year 1998
+    by the four Atlantic regions of Fisheries and Oceans Canada to collect and analyze
+    the biological, chemical, and physical oceanographic field data to characterize
+    and understand the causes of oceanic variability at various time scales, provide
+    multidisciplinary datasets to establish relationships among variables, and provide
+    adequate data to support the development of ocean activities. Ocean gliders were
+    first acquired by Fisheries and Oceans Canada in year 2017 and 2018 for both the
+    West and East coasts. On the East coast, they have been used to monitor hydrographic
+    sections associated with the AZMP. Here, the AZMP Bonavista Baytransect is occupied
+    from outside the mouth of Bonavista Bay, Newfoundland Canada at(48.733N, 52.967W)
+    in the off-shelf direction approximately 150 nautical miles tocontinental slope
+    at (49.85N, 49.5W).
   transmission_system: ''
   wmo_id: 4800994
   wmo_identifier: 4800994

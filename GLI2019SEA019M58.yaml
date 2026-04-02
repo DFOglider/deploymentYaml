@@ -57,7 +57,10 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' '
+  comment: New fins, RBR duet, crossing path of SEA021M51 on the way in at 12pm on
+    april 1st (dive 791), really pushing the battery to go to HL7 in winter the storm
+    prevent a early recovery. Very dificult recovery, mud in/on cdt, dataline shifted
+    which gives random pressure values of 1000 to 8000 ( condutivity)
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI
@@ -120,8 +123,8 @@ metadata:
     and understand the causes of oceanic variability at various time scales, provide
     multidisciplinary datasets to establish relationships among variables, and provide
     adequate data to support the development of ocean activities. Ocean gliders were
-    acquired by Fisheries and Oceans Canada in year 2017 and 2018 for both the West
-    and East coast. On the East coast, they have been used to monitor hydrographic
+    first acquired by Fisheries and Oceans Canada in year 2017 and 2018 for both the
+    West and East coasts. On the East coast, they have been used to monitor hydrographic
     sections associated with the AZMP. Here, the AZMP Halifax line is occupied from
     outside the mouth of Halifax harbor, Nova Scotia Canada at (44.267N, 63.317W)
     in the off-shelf direction approximately 135 nautical miles to deep waters off

@@ -31,7 +31,9 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' '
+  comment: With legato and ecopuck, legato was not working on first deployment attempt,
+    mission shortened by one week. Science profile accoustique 664/974, ctd and ecopuck
+    285 plus 12 x 2h drift and 1 x 6h drift
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI
