@@ -57,7 +57,7 @@ metadata:
   deployment_start: 2019-09-17
   deployment_vessel: CCGS Sigma T
   featureType: trajectory
-  format_version: IOOS_Glider_NetCDF_v2.0.nc
+  format_version: ''
   glider_instrument_name: SeaExplorer
   glider_model: SeaExplorer
   glider_name: Skye
@@ -84,7 +84,7 @@ metadata:
   platform_vocabulary: https://vocab.nerc.ac.uk/collection/L06/current/27/
   processing_level: ''
   project: Atlantic Zone Monitoring Program
-  project_url: ''
+  project_url: https://www.dfo-mpo.gc.ca/science/data-donnees/azmp-pmza/index-eng.html
   publisher_email: BIO.Datashop@dfo-mpo.gc.ca
   publisher_name: Bedford Institute of Oceanography
   publisher_url: https://www.bio.gc.ca/index-en.php
