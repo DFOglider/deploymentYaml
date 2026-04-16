@@ -82,11 +82,12 @@ metadata:
   glider_instrument_name: SeaExplorer
   glider_model: SeaExplorer
   glider_name: Mira
-  glider_serial: 019
+  glider_serial: SEA019
   glider_wmo: 4800925
+  ices_code: 182V
   institution: Bedford Institute of Oceanography
   institution_vocabulary: https://edmo.seadatanet.org/report/1811
-  internal_mission_identifier: GLI2018_SEA019_36
+  internal_mission_identifier: GLD2018SEA019M36
   keywords: AUVS > Autonomous Underwater Vehicles, Earth Science > Oceans > Ocean
     Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Pressure > Water Pressure,
     Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science
@@ -301,13 +302,13 @@ netcdf_variables:
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
   time:
     axis: T
-    long_name: Time
+    long_name: Time elapsed since 1970-01-01T00:00:00Z.
     observation_type: measured
     source: Timestamp
     standard_name: time
-    units: seconds since 1970-01-01T00:00:00Z
-    unitsVocabulary: ''
-    vocabulary: ''
+    units: seconds
+    unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UTBB/
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TIME/
   timebase:
     source: NAV_LATITUDE
 profile_variables:
