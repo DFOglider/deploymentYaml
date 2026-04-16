@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2020-07-29'
     calibration_report: '"LEGATO_205045_20200729.pdf"'
     comment: ' '
@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"205045"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2016-12-19'
     calibration_report: '"FLBBCD_4546_20161219.pdf"'
     comment: ' '

@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2017-11-02'
     calibration_report: '"GPCTD_0241_20171020_P.pdf, GPCTD_0241_20171102_C.pdf, GPCTD_0241_20171102_T.pdf"'
     comment: ' '
@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2016-12-07'
     calibration_report: '"FLBBCD_4548_20161207.pdf"'
     comment: ' '

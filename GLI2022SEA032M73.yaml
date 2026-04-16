@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2022-01-13'
     calibration_report: '"GPCTD_0241_20211216_P.pdf, GPCTD_0241_20211221_C_postCruise.pdf,
       GPCTD_0241_20211221_T_postCruise.pdf, GPCTD_0241_20220113_C.pdf, GPCTD_0241_20220113_T.pdf"'
@@ -14,7 +14,7 @@ glider_devices:
     platform: platform
     serial_number: '"0241"'
     type: platform
-  dissolvedgassensors:
+  instrument_dissolvedgassensors:
     calibration_date: '2022-02-05'
     calibration_report: '"SEA032_RINKO_calib_files_SN0020_2022"'
     comment: ' '
@@ -28,7 +28,7 @@ glider_devices:
     platform: platform
     serial_number: '"0020"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2017-05-04'
     calibration_report: '"FLBBCD_4739_20170504.pdf"'
     comment: ' '
@@ -42,7 +42,7 @@ glider_devices:
     platform: platform
     serial_number: '"4739"'
     type: platform
-  uvFluorometer:
+  instrument_uvFluorometer:
     calibration_date: '2020-03-16'
     calibration_report: '"MFLUV1_7_20200316.pdf"'
     comment: ' '

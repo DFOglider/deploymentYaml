@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2023-02-26'
     calibration_report: '"SEA024_CTD_DO_calib_files_SN0188_2023"'
     comment: ' '
@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"0188"'
     type: platform
-  dissolvedgassensors:
+  instrument_dissolvedgassensors:
     calibration_coefficients:
       A: -0.00372
       B: 0.000167
@@ -39,7 +39,7 @@ glider_devices:
     platform: platform
     serial_number: '"43-3365"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2016-12-07'
     calibration_report: '"FLBBCD_4550_20161207.pdf"'
     comment: ' '

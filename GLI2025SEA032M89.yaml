@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2024-12-11'
     calibration_report: GPCTD_0184_20241211_T.pdf, GPCTD_0184_20241211_C.pdf, GPCTD_0184_20241211_P.pdf
     comment: ' '
@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"0184"'
     type: platform
-  dissolvedgassensors:
+  instrument_dissolvedgassensors:
     calibration_coefficients:
       A: -0.00291
       B: 0.0001
@@ -39,7 +39,7 @@ glider_devices:
     platform: platform
     serial_number: '"43-3336"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2016-12-07'
     calibration_report: '"FLBBCD_4550_20161207.pdf"'
     comment: ' '

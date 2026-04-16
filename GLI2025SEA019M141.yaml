@@ -1,5 +1,5 @@
 glider_devices:
-  ctd:
+  instrument_ctd:
     calibration_date: '2025-04-17'
     calibration_report: LEGATO_214386_20250417.pdf
     comment: ' '
@@ -13,7 +13,7 @@ glider_devices:
     platform: platform
     serial_number: '"214386"'
     type: platform
-  dissolvedgassensors:
+  instrument_dissolvedgassensors:
     calibration_date: '2025-03-25'
     calibration_report: CODA_212973_20250325.pdf
     comment: ' '
@@ -27,7 +27,7 @@ glider_devices:
     platform: platform
     serial_number: '"212973"'
     type: platform
-  fluorometers:
+  instrument_fluorometers:
     calibration_date: '2016-11-17'
     calibration_report: '"FLBBCD_4551_20161117.pdf"'
     comment: ' '
