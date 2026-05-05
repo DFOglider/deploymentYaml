@@ -142,7 +142,7 @@ netcdf_variables:
     resolution: ''
     source: FLBBCD_BB_700_SCALED
     standard_name: ''
-    units: /m/sr
+    units: m-1 sr-1
     unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/PMSR/
     valid_max: ''
     valid_min: ''
@@ -183,7 +183,7 @@ netcdf_variables:
     observation_type: measured
     source: DeadReckoning
     standard_name: ''
-    units: boolean
+    units: ''
     unitsVocabulary: ''
     vocabulary: ''
   FREQUENCY_DOXY:
@@ -209,7 +209,7 @@ netcdf_variables:
     observation_type: measured
     source: Heading
     standard_name: ''
-    units: deg
+    units: degrees
     unitsVocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UAAA/
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/HEADING/
   GLIDER_PITCH:
