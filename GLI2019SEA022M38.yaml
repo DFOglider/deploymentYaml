@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: "Aborted, After 4 min in water, DO became 0 and on the way up of the 3rd\
-    \ dive conductivity became -1\u2026 it was a bad oxygen  CTD cable. WarmUpPeriod\
-    \ = 10"
+  comment: CTD failure on first day of mission, sampling on up cast only
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

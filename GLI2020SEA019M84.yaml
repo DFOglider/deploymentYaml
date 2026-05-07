@@ -57,9 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: 'CTD of SEA021, first mission with Legato and test for pitch auto adjustments.
-    All sensor turned off on the way back, sensors turned back on for HL5 AZMP station
-    comparison and at recovery for RBR cast '
+  comment: Adaptable sampling according to bathymetry. Sensors turned of half way
+    through the mission.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

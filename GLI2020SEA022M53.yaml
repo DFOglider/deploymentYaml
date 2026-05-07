@@ -45,8 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: SEA032 PLD was put on SEA022, dropweight attached, multiple 64 alarms masked,
-    mission was cut short because of coronavirus. Stong NSC on the way back
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

@@ -57,8 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: First mission with glimpse and comm to pld via iridium. Attached dropweight
-    with rope. Changed the maindatalogger from 0 to 1. 1 64 alarm
+  comment: adaptable sampling according to bathymetry
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

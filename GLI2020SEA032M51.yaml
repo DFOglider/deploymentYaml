@@ -57,9 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: PLD of sea022 but GPCTD of sea021. Iridium issues for several days gps
-    position corropted barely any files coming through. Only had 0.5 days weather
-    window that week
+  comment: GPS position corrupted due to Iridium issues. Adaptable sampling according
+    to bathymetry
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

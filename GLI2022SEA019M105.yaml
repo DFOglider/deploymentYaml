@@ -58,11 +58,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Glider SEA019, with PLD and Ecopuck of SEA021, with GPCTD of SEA019. New
-    firmware upgrade with auto ballast adjustement, deadreckoning and no ym anymore.
-    DO sensor stopped working properly mid mission. Huge ballast issue, leaking bladder,
-    glider ejected dropweight, dominion recovered in bad conditions and broke antenna
-    and linear actuator. Duet data partial.
+  comment: adaptable sampling according to bathymetry. Questionable DO value starting
+    on 6th day of mission.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

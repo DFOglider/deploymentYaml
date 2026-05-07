@@ -57,10 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Glider was hold at the surface 3min ?by fisheman? on first day, drifted
-    2h after 200 yos because of the cycle.total parameter in a config file, dropweight
-    was tapped to glider and altimeter gain was 10. We are now relying on Alseamar
-    SMTP. FTP site was full one night
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

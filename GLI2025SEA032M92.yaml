@@ -45,8 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: CDOM negative values, no CODA data because of in config file duplicate,
-    recovered after 3 days to fix it, also no legato files at 2hz
+  comment: no DO data, Questionnable CDOM data (negative range)
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

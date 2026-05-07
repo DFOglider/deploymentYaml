@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' test of new piloting command, mission with legato but post processing
-    required for saltbladder cal done after, buoyancy limited to -410 and 465 due
-    to config files comments.'
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

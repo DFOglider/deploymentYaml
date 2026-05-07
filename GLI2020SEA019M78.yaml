@@ -57,9 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Deployed by Jude. Big internal waves on plateau,we are losing 1/5 of our
-    autonomy by sampling all the time. Changed sampling rate to up on second yo for
-    the way back.
+  comment: Sampling change half way through the mission, all the time to up cast every
+    second dive.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

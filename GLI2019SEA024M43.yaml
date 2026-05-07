@@ -57,9 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Deployment delayed 1 week because of weather, first time 3 glider in the
-    water. Iris was closed for 18h on a Sunday pm, glider drifted for 6.5h at the
-    surface, data shift in the files due to the acq.1.period not 0 in the config file.
+  comment: Dataline shift observed in raw files, meaning that file headers do not
+    align with rows of data.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI

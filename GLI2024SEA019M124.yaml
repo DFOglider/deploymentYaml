@@ -59,9 +59,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: with SEA032 GPCTD, no more issue with pitch on the way up, so must have
-    been a piloting issue with new auto ballast commands and not related to linear
-    trolley fix.
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

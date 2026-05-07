@@ -57,8 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Altimeter and SMTP mailing issues, lost dropweight, difted almost 48h before
-    recovery by Grenfell
+  comment: Mission aborted after 4 days. Drifted for 2 days before recovery.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

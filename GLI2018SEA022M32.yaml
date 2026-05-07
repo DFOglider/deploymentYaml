@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: "Sub sample data every 60s instead of 30s. One 1024 alarm at the end, glider\
-    \ probably touched the seabed while turning. Perfect mission, more batterie, good\
-    \ comm, good heading, faster,\u2026"
+  comment: Sampling on up cast every second dive only.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

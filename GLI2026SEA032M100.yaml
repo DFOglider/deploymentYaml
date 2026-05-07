@@ -45,8 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Turned around before HL7 (17.3km before) for filming  weather window, +/-500ml
-    in deep water, ecopuck spike
+  comment: Ecopuck visual spikes
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

@@ -45,9 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: internal waves on shelf break, glider going further than HL7 for the first
-    time ever, might be in a warm core ring  (23.8C at surface at HL7), lost 1 day
-    coming back to HL7, increased pitch and speed to get out of eddy
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

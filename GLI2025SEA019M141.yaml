@@ -45,10 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: first mission with wet legato+coda, lots happened before deployment (following
-    the glider falling from the LARS on the Sigma deck), went through a warm core
-    ring at the very end of the line, possible internal waves as well on the shelf
-    break, leaking ballader at recovery
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

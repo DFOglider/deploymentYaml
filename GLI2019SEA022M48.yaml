@@ -57,10 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: low voltage alarm set to 24v to avoid alarm with bad battery readings,
-    Iris was closed for 18h on sunday pm, glider drifted for 9h, weather forecast
-    so bad on the recovery week that we decided to ask the CCGS Cornwallis to recover
-    the gliders at HL3 on the week-end before,data shift
+  comment: Sampling on up cast every second dive only. Dataline shift observed in
+    raw files, meaning that file headers do not align with rows of data.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

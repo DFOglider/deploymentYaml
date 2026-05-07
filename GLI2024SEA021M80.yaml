@@ -59,9 +59,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: 'First mission with VMT, flight issues near HL7, couldn''t do the VMT range
-    test, recovered after 2 weeks of being in distress, 3.12 m white shark attack,
-    the glider was missing a wing '
+  comment: Glider navigation failure because of shark bite. Science sampling off mid
+    way through mission.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

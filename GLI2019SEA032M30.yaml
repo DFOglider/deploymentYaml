@@ -45,9 +45,9 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Went to HL7 for first time. Did 2 drift of 30 min at DR, depth 20m. The
-    PLD depth is higher than the Nav depth and Nav depth is false. Battery start decreasing
-    fast at the end
+  comment: Sampling on up cast every second dive only. Navigation pressure sensor
+    gave false value, should rely on CTD pressure. Dataline shift observed in raw
+    files, meaning that file headers do not align with rows of data (?).
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

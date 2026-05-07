@@ -57,8 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: RBR duet and for the first time, no alarm!!! Some dataline shifted in Raw
-    files
+  comment: sampling on up cast every second dive only. Dataline shift observed in
+    raw files, meaning that file headers do not align with rows of data.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

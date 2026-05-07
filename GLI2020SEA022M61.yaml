@@ -45,9 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Rinko was not working the 2 first dive but got fixed but unpluging and
-    repluging, sampling pattern 011/1 on the way back, really struggle with current
-    on the way back, could not go north to make it in Bay
+  comment: Sampling change half way through the mission, all the time to up cast.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI

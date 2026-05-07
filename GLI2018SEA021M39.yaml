@@ -57,8 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: 'Drifted a lot on the way out because of heading issues in NSC , had to
-    put fixed heading of 120deg to try to go back east, 256 alarms '
+  comment: Sampling on up cast every second dive only.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

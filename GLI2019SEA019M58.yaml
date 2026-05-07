@@ -57,10 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: New fins, RBR duet, crossing path of SEA021M51 on the way in at 12pm on
-    april 1st (dive 791), really pushing the battery to go to HL7 in winter the storm
-    prevent a early recovery. Very dificult recovery, mud in/on cdt, dataline shifted
-    which gives random pressure values of 1000 to 8000 ( condutivity)
+  comment: Sampling on up cast only. Dataline shift observed in raw files, meaning
+    that file headers do not align with rows of data.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

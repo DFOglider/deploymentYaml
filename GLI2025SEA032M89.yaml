@@ -57,8 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: with T.ODO, GPCTD failed on the way out between HL6 and HL7 (before AZMP
-    sampling), used the LARS on recovery for the first time
+  comment: GPCTD failled half way through the mission
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

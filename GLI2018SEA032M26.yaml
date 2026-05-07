@@ -45,9 +45,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Double mission with SEA024, sampling 4s, ballast.hy=20.  Almost beached
-    on Duncans cove rock cliffs.The PLD depth is higher than the Nav depth and Nav
-    depth is false
+  comment: Sampling on up cast every second dive only. Navigation pressure sensor
+    gave false value, should rely on CTD pressure.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

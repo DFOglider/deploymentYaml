@@ -57,8 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: got a 1 alarm for low voltage after cutting the pld off but no alarm after
-    putting it back on. Shark bite? Staircase step in data
+  comment: Sampling on up cast only. Dataline shift observed in raw files, meaning
+    that file headers do not align with rows of data (?).
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

@@ -57,9 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Only second time we use SEA022 on HL, faster and more battery left than
-    any other glider, got stuck by current on the way back from HL7, lost at least
-    2 days, The samplin at 2s did not resolve the data line shifting issue
+  comment: Sampling on up cast every second dive only. Dataline shift observed in
+    raw files, meaning that file headers do not align with rows of data.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

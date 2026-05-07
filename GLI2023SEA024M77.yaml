@@ -60,13 +60,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Something looks a bit wrong on Conductivity starting dive 134, minifluo
-    stopped working at dive 565 but started working again after turning off and on
-    again. Both minifluo and ecopuck off in trinity bay dive 627 to save battery.
-    GPCTD and rinko off at dive 645. Did some bottoming to wait for recovery. No data
-    sent to the GTS as we forgot to send the deployment info to Anh (miscomm between
-    chantelle and melany). Corrosion was found on the GPCTD connector on front tap
-    but pins okay. Rinko sampling rate 4s.
+  comment: Questionable conductivity. Ecopuck and minifluo turned off towards the
+    end of the mission.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI

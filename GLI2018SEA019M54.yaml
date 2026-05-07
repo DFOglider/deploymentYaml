@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: 'ballast.hy=20 didn''t work for 64 alarm, sub sample data every 60s. Angular
-    256 alarm on first night and at end of mission. We hit internal waves on the way
-    back (dive 522). At least 7x64 alarm, was masked last 5 days cause too often. '
+  comment: Sampling on up cast every second dive only.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

@@ -60,11 +60,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Another firmware updrade with many changes like showing humidity inside
-    glider with X3 board, and many more little things. GPCTD possibly clogged or pump
-    failure, we tried to turn GPCTD off multiple time to clear the possible clog (12
-    dives total ishh) need to send to SBE, base of antenna broken, might have been
-    hit by a boat
+  comment: GPCTD possibly clogged or pump failure, gpctd turned off multiple times
+    to try to clear the clog
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

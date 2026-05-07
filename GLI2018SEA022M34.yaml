@@ -57,11 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Alarm 2048 was masked as the glider trigger it every time it goes to the
-    surface due to 10m waves. The conductivity, oxygen and pump stopped working we
-    don't know why. Recovered by the Hudson. Later, it was known the conductivity
-    and oxygen stopped working because of a bad cable linking the DO sensor to the
-    CTD.
+  comment: CTD failure after 9 days at sea.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI

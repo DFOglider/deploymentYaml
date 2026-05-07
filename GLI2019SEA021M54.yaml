@@ -31,12 +31,9 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Test for the angular issue with new heading firmware upgrade 10 km appart
-    from HL back and forth between GL1 and HL3, with SEA032 CTD, no DO, low voltage
-    alarm set to 24v to avoid alarm with bad battery readings, still has an angular
-    problem, masked 256 alarm,Iris was closed for 18h on sunday pm, glider drifted
-    for 8h, weather forecast so bad on the recovery week that we decided to ask the
-    CCGS Cornwallis to recover the gliders at HL3 on the week-end before
+  comment: This glider was deployed without an oxygen sensor. Sampling on up cast
+    only. Dataline shift observed in raw files, meaning that file headers do not align
+    with rows of data (?).
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

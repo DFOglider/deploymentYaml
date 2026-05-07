@@ -57,10 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' Altimeter has continious  hits at 40m while going down,  glider rebooted
-    itself after HL3 (June 8) and lost the CTD after. Dive started at 1 again. PLD
-    has been turned off completly on June 18 on the way back close to HL5. corrosion
-    was found on power cable.'
+  comment: Sampling on up cast every second dive only.CTD failure after 4 days at
+    sea. Rurned all science sensors off after 14 days.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

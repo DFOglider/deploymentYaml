@@ -45,10 +45,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: Glider started mission with 28.6 volt only. Was deployed in Trinity Bay
-    because hard to find boat in Bonavista with covid. Alarm 64 masked from the beginning.
-    Difficulties with strong pycnocline, change zt from 10 to 15. Recovery in rough
-    water as battery was already very low.
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI

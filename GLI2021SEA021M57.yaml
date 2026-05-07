@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: New battery, new release, auto pitch mission. Weird altimeter hits at surface.
-    Struggled with NSC on the way out and bad weather on the way back, both delaying
-    the progress forward by several days.
+  comment: adaptable sampling according to bathymetry
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

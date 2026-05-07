@@ -57,12 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: with SEA022 GPCTD, had issues with DO during simul and change DO cable.
-    Had 3x32 alarms again, increased security.depth.stability.duration to 360, GPCTD
-    failed in deep water just before HL7 (dive 402), DO values went first and then
-    p,T,C were only provinding data closer to the surface. GPCTD was turned off completly
-    after dive 424 and no sigh of corrosion was found at recovery. PLD was turned
-    off after 929 dives (ecopuck).
+  comment: CTD failure halfway through the mission. Ecopuck turned off towards the
+    end of the mission.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

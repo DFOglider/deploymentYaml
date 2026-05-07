@@ -57,9 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: With spare pld (initially on SEA024). There were a few dives were the GPCTD
-    DO was bad on the shelf break. Did 2 drifts at the end and did not get easy drift
-    ballast value. Nose damaged during mission but no alarms, possible boat hit.
+  comment: Questionable DO values.
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

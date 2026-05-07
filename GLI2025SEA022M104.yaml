@@ -57,8 +57,8 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: with Legato and T.ODO, CDOM negative values, can't load the T.ODO values,
-    wrong battery was inside, need to send to RBR, TODO data not recoverable
+  comment: CDOM in the negative range (will be flagged I guess, so maybe not needed
+    in the comments), glider and sensor pressure missmatch, trust CTD pressure
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

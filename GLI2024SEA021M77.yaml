@@ -57,11 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: ' mission with legato, pilot training on new piloting (auto ballast fine
-    tuning),more battery endurance than ever, duet data stopped in Emerald basin on
-    the way back, probably end of battery. Glider had 2 32 alarms I thought it was
-    held at surface by someone but probably just related to fireware upgrade and how
-    that alarm is triggered now.'
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

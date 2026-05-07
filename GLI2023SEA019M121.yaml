@@ -57,14 +57,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: GPCTD of SEA021, glider just repaired by alseamar (bladder and linear),
-    ecopuck values okay cause negative in simu? Lots of trouble flying well on the
-    way up, looks like angular and linear cant stabilise, try to change the linear
-    base, did not help. Did 2 dives spiraling to see if compass issue, seems to be
-    an issue on the way up only, down is perfectly fine since the begining. Tried
-    WP option for GL3 on the way out, worked well. Did a drift a 200m, ecopuck fine.
-    Hurricane Lee. Chiara helped a lot and I played with new 3.5.3 commands for the
-    first time.
+  comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Bedford Institute
     of Oceanography
   contributing_institutions_role: Operator, PI

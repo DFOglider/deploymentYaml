@@ -59,8 +59,7 @@ metadata:
   Conventions: CF-1.6
   Metadata_Conventions: CF-1.6, Unidata Dataset Discovery v1.0
   acknowledgement: Funding from Fisheries and Oceans Canada.
-  comment: pld of sea032 with sea021 ctd 0184, had to add 2 foams for ballasting and
-    was still a bit heavy due to SBE DO sensor, recovered in Trinity bay
+  comment: Sampling on down cast only.
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
     Fisheries Centre, Northwest Atlantic Fisheries Centre
   contributing_institutions_role: Operator, Operator, PI
