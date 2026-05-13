@@ -99,7 +99,8 @@ metadata:
   license: Open Government Licence - Canada
   metadata_link: ''
   naming_authority: ''
-  network: OceanGliders > BOON > Northwest Atlantic Ocean
+  network: OceanGliders > BOON > Northwest Atlantic Ocean > Atlantic Zone Monitoring
+    Program
   platform: sub-surface gliders
   platform_model: SeaExplorer
   platform_name: Margaree
