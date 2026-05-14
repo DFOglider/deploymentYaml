@@ -14,6 +14,32 @@ glider_devices:
     serial_number: '"0184"'
     type: platform
   instrument_dissolvedgassensors:
+    calibration_coefficients:
+      A: -0.0043
+      B: 0.000156
+      C: -1.9609e-06
+      Enom: 0.036
+      Foffset: -785.65
+      Soc: 0.00030636
+      Tau20: 1.02
+    calibration_date: '2019-12-20'
+    calibration_report: '"43F_3336_20191220.pdf, 43F_3336_20191220_SOCAdjusted.pdf"'
+    calibration_sourceVars:
+      conductivity: GPCTD_CONDUCTIVITY
+      pressure: GPCTD_PRESSURE
+      temperature: GPCTD_TEMP
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Sea-Bird SBE 43F Dissolved Oxygen Sensor
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE 43F DO
+    model: SBE 43F DO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
+    platform: platform
+    serial_number: '"43-3336"'
+    type: platform
+  instrument_dissolvedgassensors2:
     calibration_date: '2020-11-25'
     calibration_report: '"RINKO_inHouseCal"'
     comment: ' '
@@ -412,6 +438,32 @@ profile_variables:
     serial_number: '"0184"'
     type: platform
   instrument_dissolvedgassensors:
+    calibration_coefficients:
+      A: -0.0043
+      B: 0.000156
+      C: -1.9609e-06
+      Enom: 0.036
+      Foffset: -785.65
+      Soc: 0.00030636
+      Tau20: 1.02
+    calibration_date: '2019-12-20'
+    calibration_report: '"43F_3336_20191220.pdf, 43F_3336_20191220_SOCAdjusted.pdf"'
+    calibration_sourceVars:
+      conductivity: GPCTD_CONDUCTIVITY
+      pressure: GPCTD_PRESSURE
+      temperature: GPCTD_TEMP
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Sea-Bird SBE 43F Dissolved Oxygen Sensor
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE 43F DO
+    model: SBE 43F DO
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL0037/
+    platform: platform
+    serial_number: '"43-3336"'
+    type: platform
+  instrument_dissolvedgassensors2:
     calibration_date: '2020-11-25'
     calibration_report: '"RINKO_inHouseCal"'
     comment: ' '

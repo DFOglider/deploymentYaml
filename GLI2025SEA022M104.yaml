@@ -1,5 +1,19 @@
 glider_devices:
   instrument_ctd:
+    calibration_date: '2024-12-17'
+    calibration_report: GPCTD_0188_20241211_T.pdf, GPCTD_0188_20241211_C.pdf, GPCTD_0188_20241211_P.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
+    platform: platform
+    serial_number: '"0188"'
+    type: platform
+  instrument_ctd2:
     calibration_date: '2024-09-16'
     calibration_report: LEGATO_210185_20240916.pdf
     comment: ' '
@@ -241,10 +255,10 @@ netcdf_variables:
     units: ''
     unitsVocabulary: ''
     vocabulary: ''
-  PSAL:
+  PSAL2:
     accuracy: ''
     coordinates: time depth latitude longitude
-    instrument: instrument_ctd
+    instrument: instrument_ctd2
     long_name: Practical salinity
     observation_type: measured
     precision: ''
@@ -265,6 +279,22 @@ netcdf_variables:
     precision: ''
     replaceName: CNDC
     resolution: 1.0e-05
+    source: GPCTD_CONDUCTIVITY
+    standard_name: sea_water_electrical_conductivity
+    units: S m-1
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UECA/
+    valid_max: 9.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/CNDC/
+  conductivity2:
+    accuracy: 0.0003
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd2
+    long_name: Electrical conductivity
+    observation_type: measured
+    precision: ''
+    replaceName: CNDC2
+    resolution: 1.0e-05
     source: LEGATO_CONDUCTIVITY
     standard_name: sea_water_electrical_conductivity
     units: mS cm-1
@@ -277,7 +307,7 @@ netcdf_variables:
   - GLIDER_PITCH
   - conductivity
   - FREQUENCY_DOXY
-  - conductivity
+  - conductivity2
   latitude:
     axis: Y
     conversion: nmea2deg
@@ -307,7 +337,7 @@ netcdf_variables:
     valid_min: '-180.00'
     vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/LON/
   pressure:
-    accuracy: 0.05
+    accuracy: 0.1
     coordinates: time depth latitude longitude
     instrument: instrument_ctd
     long_name: Sea water pressure, equals 0 at sea-level
@@ -316,6 +346,24 @@ netcdf_variables:
     precision: ''
     reference_datum: sea-surface
     replaceName: PRES
+    resolution: 0.002
+    source: GPCTD_PRESSURE
+    standard_name: sea_water_pressure
+    units: dbar
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPDB/
+    valid_max: 1000.0
+    valid_min: 0.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/PRES/
+  pressure2:
+    accuracy: 0.05
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd2
+    long_name: Sea water pressure, equals 0 at sea-level
+    observation_type: measured
+    positive: down
+    precision: ''
+    reference_datum: sea-surface
+    replaceName: PRES2
     resolution: 0.001
     source: LEGATO_PRESSURE
     standard_name: sea_water_pressure
@@ -332,6 +380,22 @@ netcdf_variables:
     observation_type: measured
     precision: ''
     replaceName: TEMP
+    resolution: 0.001
+    source: GPCTD_TEMPERATURE
+    standard_name: sea_water_temperature
+    units: degC
+    unitsvocabulary: http://vocab.nerc.ac.uk/collection/P06/current/UPAA/
+    valid_max: 42.0
+    valid_min: -5.0
+    vocabulary: http://vocab.nerc.ac.uk/collection/OG1/current/TEMP/
+  temperature2:
+    accuracy: 0.002
+    coordinates: time depth latitude longitude
+    instrument: instrument_ctd2
+    long_name: Sea temperature in-situ ITS-90 scale
+    observation_type: measured
+    precision: ''
+    replaceName: TEMP2
     resolution: 5.0e-05
     source: LEGATO_TEMPERATURE
     standard_name: sea_water_temperature
@@ -353,6 +417,20 @@ netcdf_variables:
     source: NAV_LATITUDE
 profile_variables:
   instrument_ctd:
+    calibration_date: '2024-12-17'
+    calibration_report: GPCTD_0188_20241211_T.pdf, GPCTD_0188_20241211_C.pdf, GPCTD_0188_20241211_P.pdf
+    comment: ' '
+    factory_calibrated: 'yes'
+    long_name: Sea-Bird SBE Glider Payload CTD (GPCTD)
+    make: Sea-Bird Scientific
+    makeVocabulary: https://vocab.nerc.ac.uk/collection/L35/current/MAN0013/
+    make_model: Sea-Bird Scientific SBE GPCTD
+    model: SBE GPCTD
+    modelVocabulary: https://vocab.nerc.ac.uk/collection/L22/current/TOOL1026/
+    platform: platform
+    serial_number: '"0188"'
+    type: platform
+  instrument_ctd2:
     calibration_date: '2024-09-16'
     calibration_report: LEGATO_210185_20240916.pdf
     comment: ' '
