@@ -47,12 +47,13 @@ metadata:
   acknowledgement: Funding from Fisheries and Oceans Canada.
   comment: nan
   contributing_institutions: Bedford Institute of Oceanography, Northwest Atlantic
-    Fisheries Centre, Northwest Atlantic Fisheries Centre
-  contributing_institutions_role: Operator, Operator, PI
+    Fisheries Centre, Northwest Atlantic Fisheries Centre, Bedford Institute of Oceanography
+  contributing_institutions_role: Operator, Operator, PI, PI
   contributing_institutions_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/,
-    http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/, http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0003/, http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/,
+    http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/
   contributing_institutions_vocabulary: https://edmo.seadatanet.org/report/1811, https://edmo.seadatanet.org/report/4157,
-    https://edmo.seadatanet.org/report/4157
+    https://edmo.seadatanet.org/report/4157, https://edmo.seadatanet.org/report/1811
   contributor_name: Clark Richards, Melany Belzile
   contributor_role: PI, Operator
   contributor_role_vocabulary: http://vocab.nerc.ac.uk/collection/W08/current/CONT0004/,
@@ -84,10 +85,11 @@ metadata:
     > Salinity
   keywords_vocabulary: GCMD Science Keywords
   license: Open Government Licence - Canada
-  location: ' '
+  location: Browns Bank Line
   metadata_link: ''
   naming_authority: ''
-  network: OceanGliders > BOON > Northwest Atlantic Ocean
+  network: OceanGliders > BOON > Northwest Atlantic Ocean > Atlantic Zone Monitoring
+    Program
   platform: sub-surface gliders
   platform_model: SeaExplorer
   platform_name: Skye
@@ -105,7 +107,18 @@ metadata:
   sea_name: Northwest Atlantic Ocean (limit-40 W)
   source: Observational data from a profiling glider.
   standard_name_vocabulary: Standard Name Table (v85, 21 May 2024)
-  summary: null
+  summary: "The Atlantic Zone Monitoring Program (AZMP) was implemented in year 1998\
+    \ by the four Atlantic regions of Fisheries and Oceans Canada to collect and analyze\
+    \ the biological, chemical, and physical oceanographic field data to characterize\
+    \ and understand the causes of oceanic variability at various time scales, provide\
+    \ multidisciplinary datasets to establish relationships among variables, and provide\
+    \ adequate data to support the development of ocean activities. Ocean gliders\
+    \ were first acquired by Fisheries and Oceans Canada in year 2017 and 2018 for\
+    \ both the West and East coasts. On the East coast, they have been used to monitor\
+    \ hydrographic sections associated with the AZMP.Here, the AZMP Brown\u2019s Bank\
+    \ line is occupied from offshore of Clark\u2019s Harbour, Nova Scotia Canada at\
+    \ (43.25N, 65.48W) in the south direction approximately 83 nautical miles to deep\
+    \ waters off the continental slope at (41.8667N, 65.35W).\u201D"
   transmission_system: ''
   wmo_id: 4800926
   wmo_identifier: 4800926
